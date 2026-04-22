@@ -148,5 +148,29 @@ nav a {
 }
 
 /* ---------------------------------------------- */
+.unlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 433px;
+}
+
+.logo_unlock img {
+  width: 442px;
+  height: 433px;
+}
+.title_text_unlock p {
+  font-size: 14px;
+  line-height: 20px;
+  width: 601px;
+  color: #717171;
+}
+
+.title_text_unlock button {
+  width: 151px;
+  height: 52px;
+  margin-top: 32px;
+}
 
 /* ------------------------------------------------ */
