@@ -148,29 +148,52 @@ nav a {
 }
 
 /* ---------------------------------------------- */
-.unlock {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  height: 433px;
+.system {
+  padding-bottom: 10px;
 }
 
-.logo_unlock img {
-  width: 442px;
-  height: 433px;
+.Manage {
+  text-align: center;
 }
-.title_text_unlock p {
+
+.title-manage {
+  font-size: 36px;
+  line-height: 44px;
+  color: var(---gray);
+  padding-top: 10px;
+  margin-bottom: 16px;
+}
+
+/* List */
+
+.system-list {
+  display: flex;
+  justify-content: center;
+  gap: 127.5px;
+}
+
+.list-one {
+  width: 299px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(171, 190, 209, 0.2);
+}
+
+.system-list img {
+  width: 65px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+.list-one h3 {
+  font-size: 28px;
+  line-height: 36px;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+}
+
+.list-one p {
   font-size: 14px;
   line-height: 20px;
-  width: 601px;
   color: #717171;
 }
-
-.title_text_unlock button {
-  width: 151px;
-  height: 52px;
-  margin-top: 32px;
-}
-
 /* ------------------------------------------------ */
