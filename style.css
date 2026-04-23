@@ -210,7 +210,7 @@ nav a {
   width: 442px;
   height: 433px;
 }
-.title_text_unlock p {
+.title_text_unlock .text_unlock {
   font-size: 14px;
   line-height: 20px;
   width: 601px;
@@ -230,6 +230,7 @@ nav a {
   align-items: center;
   gap: 72px;
   background-color: #f5f7fa;
+  margin-bottom: 48px;
 }
 
 .achievement_list {
@@ -275,4 +276,47 @@ nav a {
   font-size: 16px;
   line-height: 24px;
   color: #717171;
+}
+/* --------------------------------------- */
+
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 49.77px;
+  margin-bottom: 48px;
+}
+
+.logo_customers {
+  padding-left: 144px;
+}
+
+.logo_customers img {
+  width: 433px;
+}
+
+.customers_right {
+  padding-top: 62.7px;
+  padding-bottom: 62.7px;
+  padding-right: 144px;
+}
+
+.customers_right h2 {
+  margin-right: 60px;
+  padding-top: 0px;
+}
+
+.customers_right h2 {
+  width: 601px;
+}
+.customers_right p {
+  width: 601px;
+}
+
+.text_customers {
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  margin-bottom: 32px;
+  margin-right: 60px;
 }
