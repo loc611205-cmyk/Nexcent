@@ -73,7 +73,7 @@ nav a {
 
 .Banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 96px 144px;
   background: #f5f7fa;
@@ -242,7 +242,7 @@ nav a {
   line-height: 44px;
 }
 
-.Brand_text {
+.brand_text {
   color: #4caf4f;
 }
 
