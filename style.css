@@ -320,3 +320,59 @@ nav a {
   margin-bottom: 32px;
   margin-right: 60px;
 }
+
+/* ----------------------------------  */
+.community {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 78px;
+  margin-bottom: 48px;
+  background-color: #f5f7fa;
+}
+
+.community_right {
+  padding-right: 144px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.community_left {
+  padding-left: 144px;
+}
+
+.community_left img {
+  width: 330px;
+  height: auto;
+}
+.community_logos {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+
+.community_logos img {
+  width: 48px;
+  height: 48px;
+}
+
+.community_text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 16px;
+}
+
+.community_name {
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+  margin-bottom: 8px;
+}
+
+.community_british {
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  margin-bottom: 32px;
+}
