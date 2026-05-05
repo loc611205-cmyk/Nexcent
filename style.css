@@ -368,6 +368,7 @@ nav a {
   line-height: 28px;
   color: #4caf4f;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .community_british {
@@ -376,3 +377,72 @@ nav a {
   color: #717171;
   margin-bottom: 32px;
 }
+
+/* ---------------------- */
+
+.caring {
+  text-align: center;
+}
+
+.caring_header h2 {
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 8px;
+}
+
+.caring_header {
+  padding: 0px 165px;
+}
+
+.caring_header p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  padding: 0px 241px;
+}
+
+.caring_list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.caring_card {
+  position: relative;
+}
+
+.caring_card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.caring_content {
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 317px;
+   min-height: 176px;
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.caring_listname {
+  font-size: 20px;
+  line-height: 28px;
+  color: #717171;
+  padding: 16px;
+}
+
+.caring_link {
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+  cursor: pointer;
+}
+
+
+
